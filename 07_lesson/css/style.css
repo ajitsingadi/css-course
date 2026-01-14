@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: darkgray;
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration:none;
+    color: blue;
+    cursor: pointer;
+}
+/* pseudo-classes for links:  order of specificity of pseudo calsses of a link a>visited>hover>active*/
+a:visited {
+    color: purple;
+}
+
+a:hover, a:focus {
+    color: dodgerblue;
+    /* opacity: .6; */
+    background-color: lightgreen;
+}
+
+a:active {
+    color: red;
+}
